@@ -2,19 +2,24 @@
 
 import { navLinks } from "@/constants";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+
   return (
-    <nav className="w-full flex py-6 justify-between items-center">
-      <Image
-        src="/assets/logo2.png"
-        alt="web-sculptors"
-        className="object-contain"
-        width={161}
-        height={161}
-      />
+    <nav
+      className={`w-full fixed left-0 top-0 xl:max-w-[1280px] z-20 flex py-6 md:px-20 px-6 justify-between items-center`}
+    >
+      <div>
+        <Image
+          src="/assets/logo2.png"
+          alt="web-sculptors"
+          className="object-contain"
+          width={161}
+          height={161}
+        />
+      </div>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
