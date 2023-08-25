@@ -13,7 +13,7 @@ const QualityFeature = () => {
                 <Image src={feature.img} width={100} height={100} alt={feature.text} />
                 <div>
                 <h1 className="text-lg font-semibold mb-4">{feature.title}</h1>
-                <p className="text-base font-medium max-w-md">
+                <p className="text-sm leading-[1.9] text-[#343D48] font-normal max-w-md">
                  {feature.text}
                 </p>
                 </div>

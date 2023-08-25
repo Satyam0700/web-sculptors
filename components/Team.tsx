@@ -8,7 +8,7 @@ const Team = () => {
     <div id="teams">
         <Heading title="The most qualified and talented individuals" subTitle="our team"/>
 
-        <div className="sm:mx-20 mx-9 mt-24 mb-10 px grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ">
+        <div className="sm:px-20 px-9 mt-24 mb-10 px grid grid-cols-1 ss:grid-cols-2 md:grid-cols-3 ">
             {teams.map((team) => (
                 <div key={team.id} className="flex hover:bg-white hover:shadow-xl hover:text-[#EA3A60] transition py-10 px-20 rounded-lg flex-col text-center gap-10 mt-10 items-center justify-center">
                     <Image src={team.imgSrc} width={100} height={100} alt={team.altText}/>

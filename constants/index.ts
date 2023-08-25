@@ -1,5 +1,4 @@
-
-import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 export const navLinks = [
   {
@@ -19,7 +18,7 @@ export const navLinks = [
     title: "Product",
   },
   {
-    id: "teams",
+    id: "/team",
     title: "Teams",
   },
 ];
@@ -35,12 +34,6 @@ export const features = [
     id: 1,
     img: "/assets/performance.svg",
     title: "Fast Performance",
-    text: " Our Company, Web Sculptors is a startup that will do their best to make the world futuristic with the help of AI and technology",
-  },
-  {
-    id: 1,
-    img: "/assets/subscription.svg",
-    title: "Pro Subscription",
     text: " Our Company, Web Sculptors is a startup that will do their best to make the world futuristic with the help of AI and technology",
   },
   {
@@ -82,163 +75,171 @@ export const teams = [
   {
     id: 1,
     imgSrc: "/assets/member-1.png",
-    altText: 'Saimon Harmer',
-    title: 'Saimon Harmer',
-    designation: 'CEO and Founder',
+    altText: "Atulya Sunny",
+    title: "Atulya Sunny",
+    designation: "CEO and CO-Founder",
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: FaFacebookF
+        name: "facebook",
+        path: "#",
+        icon: FaFacebookF,
       },
       {
         id: 2,
-        name: 'twitter',
-        path: '#',
-        icon: FaTwitter
+        name: "twitter",
+        path: "#",
+        icon: FaTwitter,
       },
       {
         id: 3,
-        name: 'instagram',
-        path: '#',
-        icon: FaInstagram
+        name: "instagram",
+        path: "#",
+        icon: FaInstagram,
       },
     ],
   },
   {
     id: 2,
-    imgSrc: "/assets/member-2.png",
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Founder',
+    imgSrc: "/assets/member-5.png",
+    altText: "Ayush kumar",
+    title: "Ayush kumar",
+    designation: "CMO and Founder",
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: FaFacebookF
+        name: "facebook",
+        path: "#",
+        icon: FaFacebookF,
       },
       {
         id: 2,
-        name: 'twitter',
-        path: '#',
-        icon: FaTwitter
+        name: "twitter",
+        path: "#",
+        icon: FaTwitter,
       },
       {
         id: 3,
-        name: 'instagram',
-        path: '#',
-        icon: FaInstagram
+        name: "instagram",
+        path: "#",
+        icon: FaInstagram,
       },
     ],
   },
   {
     id: 3,
     imgSrc: "/assets/member-3.png",
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Web Designer',
+    altText: "Satyam Kumar",
+    title: "Satyam Kumar",
+    designation: "Software Engineer",
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: FaFacebookF
+        name: "facebook",
+        path: "#",
+        icon: FaFacebookF,
       },
       {
         id: 2,
-        name: 'twitter',
-        path: '#',
-        icon: FaTwitter
+        name: "twitter",
+        path: "#",
+        icon: FaTwitter,
       },
       {
         id: 3,
-        name: 'instagram',
-        path: '#',
-        icon: FaInstagram
+        name: "instagram",
+        path: "#",
+        icon: FaInstagram,
+      },
+    ],
+  },
+];
+
+export const footerLinks = [
+  {
+    title: "Useful Links",
+    links: [
+      {
+        name: "Content",
+        link: "https://www.hoobank.com/content/",
+      },
+      {
+        name: "How it Works",
+        link: "https://www.hoobank.com/how-it-works/",
+      },
+      {
+        name: "Create",
+        link: "https://www.hoobank.com/create/",
+      },
+      {
+        name: "Explore",
+        link: "https://www.hoobank.com/explore/",
+      },
+      {
+        name: "Terms & Services",
+        link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
   },
   {
-    id: 4,
-    imgSrc: "/assets/member-4.png",
-    altText: 'Lina Jutila',
-    title: 'Lina Jutila',
-    designation: 'Web Developer',
-    socialProfile: [
+    title: "Community",
+    links: [
       {
-        id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: FaFacebookF
+        name: "Help Center",
+        link: "https://www.hoobank.com/help-center/",
       },
       {
-        id: 2,
-        name: 'twitter',
-        path: '#',
-        icon: FaTwitter
+        name: "Partners",
+        link: "https://www.hoobank.com/partners/",
       },
       {
-        id: 3,
-        name: 'instagram',
-        path: '#',
-        icon: FaInstagram
+        name: "Suggestions",
+        link: "https://www.hoobank.com/suggestions/",
+      },
+      {
+        name: "Blog",
+        link: "https://www.hoobank.com/blog/",
+      },
+      {
+        name: "Newsletters",
+        link: "https://www.hoobank.com/newsletters/",
       },
     ],
   },
   {
-    id: 5,
-    imgSrc: "/assets/member-5.png",
-    altText: 'Saimon Harmer',
-    title: 'Saimon Harmer',
-    designation: 'CEO and Founder',
-    socialProfile: [
+    title: "Partner",
+    links: [
       {
-        id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: FaFacebookF
+        name: "Our Partner",
+        link: "https://www.hoobank.com/our-partner/",
       },
       {
-        id: 2,
-        name: 'twitter',
-        path: '#',
-        icon: FaTwitter
-      },
-      {
-        id: 3,
-        name: 'instagram',
-        path: '#',
-        icon: FaInstagram
+        name: "Become a Partner",
+        link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
   },
+];
+
+export const socialMedia = [
   {
-    id: 6,
-    imgSrc: "/assets/member-6.png",
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Web Designer',
-    socialProfile: [
-      {
-        id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: FaFacebookF
-      },
-      {
-        id: 2,
-        name: 'twitter',
-        path: '#',
-        icon: FaTwitter
-      },
-      {
-        id: 3,
-        name: 'instagram',
-        path: '#',
-        icon: FaInstagram
-      },
-    ],
+    id: "social-media-1",
+    icon: "/assets/instagram.svg",
+    link: "https://www.instagram.com/",
+  },
+  {
+    id: "social-media-2",
+    icon: "/assets/facebook.svg",
+    link: "https://www.facebook.com/",
+  },
+  {
+    id: "social-media-3",
+    icon: "/assets/twitter.svg",
+    link: "https://www.twitter.com/",
+  },
+  {
+    id: "social-media-4",
+    icon: "/assets/linkedin.svg",
+    link: "https://www.linkedin.com/",
   },
 ];
